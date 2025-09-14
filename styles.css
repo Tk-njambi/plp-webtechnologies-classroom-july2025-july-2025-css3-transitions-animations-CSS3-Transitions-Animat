@@ -1,0 +1,83 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(120deg, teal, purple);
+    color: white;
+    padding: 80px 20px;
+}
+
+.hero h1 span {
+    color: yellow;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: teal;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.4s, transform 0.3s;
+}
+
+.hero button:hover {
+    background: yellow;
+    transform: scale(1.1);
+}
+
+
+/* About Section */
+
+.about {
+    padding: 40px 20px;
+}
+
+
+/* Projects Section */
+
+.projects {
+    padding: 40px 20px;
+    background: #fff;
+}
+
+.project-card {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+    background: steelblue;
+    color: white;
+    border-radius: 8px;
+    line-height: 150px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.6s ease, background 0.6s ease;
+}
+
+.project-card:hover {
+    transform: rotate(5deg) scale(1.1);
+    background: tomato;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background: #333;
+    color: white;
+}
